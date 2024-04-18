@@ -1,0 +1,17 @@
+{
+  "name": "nodejs-tg-bot",
+  "version": "0.0.1",
+  "description": "Never gonna make you cry, never gonna say goodbye",
+  "license": "GPL v3",
+  "type": "module",
+  "repository": {
+    "type": "git",
+    "url": "https://github.com/uriid1/nodejs-tg-bot"
+  },
+  "dependencies": {
+    "~": "file:./src"
+  },
+  "scripts": {
+    "start": "node ./src/index.js"
+  }
+}
